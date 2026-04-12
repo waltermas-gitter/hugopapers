@@ -2,178 +2,178 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/hugopapers/</loc>
     <lastmod>2026-04-12T10:23:02-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/readme/</loc>
+    <loc>http://localhost:1313/hugopapers/readme/</loc>
     <lastmod>2026-04-12T10:23:02-03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/linux/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/nushell/</loc>
+    <loc>http://localhost:1313/hugopapers/post/nushell/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/</loc>
+    <loc>http://localhost:1313/hugopapers/post/</loc>
     <lastmod>2026-04-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/hacker/</loc>
+    <loc>http://localhost:1313/hugopapers/post/hacker/</loc>
     <lastmod>2026-03-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/qemu/</loc>
+    <loc>http://localhost:1313/hugopapers/post/qemu/</loc>
     <lastmod>2026-01-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/node/</loc>
+    <loc>http://localhost:1313/hugopapers/post/node/</loc>
     <lastmod>2025-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/cmus/</loc>
+    <loc>http://localhost:1313/hugopapers/post/cmus/</loc>
     <lastmod>2025-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/systemd-nspawn/</loc>
+    <loc>http://localhost:1313/hugopapers/post/systemd-nspawn/</loc>
     <lastmod>2025-09-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/repetidor/</loc>
+    <loc>http://localhost:1313/hugopapers/post/repetidor/</loc>
     <lastmod>2025-07-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/yazi/</loc>
+    <loc>http://localhost:1313/hugopapers/post/yazi/</loc>
     <lastmod>2025-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/broot/</loc>
+    <loc>http://localhost:1313/hugopapers/post/broot/</loc>
     <lastmod>2025-06-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/neovim/</loc>
+    <loc>http://localhost:1313/hugopapers/post/neovim/</loc>
     <lastmod>2025-06-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/hugopapers/post/c&#43;&#43;/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/ce/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/ce/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/hora/</loc>
+    <loc>http://localhost:1313/hugopapers/post/hora/</loc>
     <lastmod>2025-05-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux-qt/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/linux-qt/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/qtcreator/</loc>
+    <loc>http://localhost:1313/hugopapers/post/qtcreator/</loc>
     <lastmod>2025-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/qtile/</loc>
+    <loc>http://localhost:1313/hugopapers/post/qtile/</loc>
     <lastmod>2025-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/debian/</loc>
+    <loc>http://localhost:1313/hugopapers/post/debian/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/startx/</loc>
+    <loc>http://localhost:1313/hugopapers/post/startx/</loc>
     <lastmod>2025-01-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/decoradores/</loc>
+    <loc>http://localhost:1313/hugopapers/post/decoradores/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/python-linux/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/python-linux/</loc>
     <lastmod>2025-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/awk/</loc>
+    <loc>http://localhost:1313/hugopapers/post/awk/</loc>
     <lastmod>2024-12-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/docker/</loc>
+    <loc>http://localhost:1313/hugopapers/post/docker/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/linux-python/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/linux-python/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/python/</loc>
+    <loc>http://localhost:1313/hugopapers/post/python/</loc>
     <lastmod>2024-12-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/lua/</loc>
+    <loc>http://localhost:1313/hugopapers/post/lua/</loc>
     <lastmod>2024-12-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/css/</loc>
+    <loc>http://localhost:1313/hugopapers/post/css/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/doom/</loc>
+    <loc>http://localhost:1313/hugopapers/post/doom/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/html/</loc>
+    <loc>http://localhost:1313/hugopapers/post/html/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/javascript/</loc>
+    <loc>http://localhost:1313/hugopapers/post/javascript/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/hardware-info/</loc>
+    <loc>http://localhost:1313/hugopapers/post/hardware-info/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/permisos/</loc>
+    <loc>http://localhost:1313/hugopapers/post/permisos/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/procesos/</loc>
+    <loc>http://localhost:1313/hugopapers/post/procesos/</loc>
     <lastmod>2024-11-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/audio/</loc>
+    <loc>http://localhost:1313/hugopapers/post/audio/</loc>
     <lastmod>2024-11-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/copyq/</loc>
+    <loc>http://localhost:1313/hugopapers/post/copyq/</loc>
     <lastmod>2024-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/pro-user/</loc>
+    <loc>http://localhost:1313/hugopapers/post/pro-user/</loc>
     <lastmod>2024-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/programas/</loc>
+    <loc>http://localhost:1313/hugopapers/post/programas/</loc>
     <lastmod>2024-11-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/arch/</loc>
+    <loc>http://localhost:1313/hugopapers/post/arch/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/fonts/</loc>
+    <loc>http://localhost:1313/hugopapers/post/fonts/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/gnome/</loc>
+    <loc>http://localhost:1313/hugopapers/post/gnome/</loc>
     <lastmod>2024-11-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/grub/</loc>
+    <loc>http://localhost:1313/hugopapers/post/grub/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/rclone/</loc>
+    <loc>http://localhost:1313/hugopapers/post/rclone/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/ssh/</loc>
+    <loc>http://localhost:1313/hugopapers/post/ssh/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/tar-zip/</loc>
+    <loc>http://localhost:1313/hugopapers/post/tar-zip/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/zsh/</loc>
+    <loc>http://localhost:1313/hugopapers/post/zsh/</loc>
     <lastmod>2024-11-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/bash/</loc>
+    <loc>http://localhost:1313/hugopapers/post/bash/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/info/</loc>
+    <loc>http://localhost:1313/hugopapers/post/info/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>http://localhost:1313/hugopapers/tags/linux/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/personal/</loc>
+    <loc>http://localhost:1313/hugopapers/categories/personal/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/radios/</loc>
+    <loc>http://localhost:1313/hugopapers/post/radios/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/hugopapers/tags/</loc>
     <lastmod>2024-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/nubes/</loc>
+    <loc>http://localhost:1313/hugopapers/post/nubes/</loc>
     <lastmod>2024-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/git/</loc>
+    <loc>http://localhost:1313/hugopapers/post/git/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/post/markdown/</loc>
+    <loc>http://localhost:1313/hugopapers/post/markdown/</loc>
     <lastmod>2024-11-22T00:00:00+00:00</lastmod>
   </url>
 </urlset>

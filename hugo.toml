@@ -4,7 +4,17 @@ title = "Hugo papers"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+
+[outputs]
+  home = ["HTML", "JSON"]
+
+[outputFormats.json]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = false
+
 [params]
+  baseURL = "{{ .Site.BaseURL }}"
   enableSearch = true
   userStatusEmoji = "😀"
   author = "waltermas"
@@ -12,12 +22,4 @@ pygmentsUseClasses = true
   github = "waltermas-gitter"
   avatar = "/images/aboutfoto.png"
   favicon = "/images/favicon.png"
-  [outputs]
-    home = ["html", "json"]
-
-    [outputFormats.json]
-      mediaType = "application/json"
-        baseName = "index"
-	  isPlainText = false
-
 

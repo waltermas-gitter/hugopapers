@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux Qt on Hugo papers</title>
-    <link>http://localhost:1313/categories/linux-qt/</link>
+    <link>http://localhost:1313/hugopapers/categories/linux-qt/</link>
     <description>Recent content in Linux Qt on Hugo papers</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/linux-qt/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/hugopapers/categories/linux-qt/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>qt</title>
-      <link>http://localhost:1313/post/qtcreator/</link>
+      <link>http://localhost:1313/hugopapers/post/qtcreator/</link>
       <pubDate>Mon, 14 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/qtcreator/</guid>
+      <guid>http://localhost:1313/hugopapers/post/qtcreator/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLS1QulWo1RIZiBcTr5urECberTITj7gjA&#34;&gt;tutorial&lt;/a&gt;&lt;br&gt;&#xA;Hacer un programa:&lt;br&gt;&#xA;qmake6 test.prog&#xA;make&lt;br&gt;&#xA;./test&lt;/p&gt;&#xA;&lt;h2 id=&#34;compilar-programa-de-c&#34;&gt;compilar programa de c&lt;/h2&gt;&#xA;&lt;p&gt;gcc programa.c -o programa&lt;br&gt;&#xA;./programa&lt;/p&gt;</description>
     </item>
   </channel>
