@@ -1,0 +1,23 @@
+baseURL = "https://meik2333.com/"
+languageCode = "en-us"
+title = "Hugo papers"
+theme = "github-style"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+[params]
+  enableSearch = true
+  userStatusEmoji = "😀"
+  author = "waltermas"
+  description = "waltermas hugo papers"
+  github = "waltermas-gitter"
+  avatar = "/images/aboutfoto.png"
+  favicon = "/images/favicon.png"
+  [outputs]
+    home = ["html", "json"]
+
+    [outputFormats.json]
+      mediaType = "application/json"
+        baseName = "index"
+	  isPlainText = false
+
+

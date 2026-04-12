@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MeiK&#39;s blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on MeiK&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 12 Apr 2026 10:24:16 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Readme</title>
+      <link>http://localhost:1313/readme/</link>
+      <pubDate>Sun, 12 Apr 2026 10:23:02 -0300</pubDate>
+      <guid>http://localhost:1313/readme/</guid>
+      <description>&lt;h1 id=&#34;readme&#34;&gt;Readme&lt;/h1&gt;&#xA;&lt;p&gt;Este es el nuevo proyecto papers&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>git</title>
+      <link>http://localhost:1313/post/2024-11-22-git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-11-22-git/</guid>
+      <description>&lt;h2 id=&#34;comandos-basicos&#34;&gt;comandos basicos&lt;/h2&gt;&#xA;&lt;p&gt;git init&lt;br&gt;&#xA;git status&lt;br&gt;&#xA;git add -u , git add ., git add -A&lt;br&gt;&#xA;git commit -m &amp;ldquo;mensaje&amp;rdquo;&lt;br&gt;&#xA;git push&lt;br&gt;&#xA;git log &amp;ndash;oneline&lt;br&gt;&#xA;git remote show origin #info del remote&lt;br&gt;&#xA;git diff &amp;ndash;word-diff=color&lt;/p&gt;&#xA;&lt;h2 id=&#34;ramas&#34;&gt;ramas&lt;/h2&gt;&#xA;&lt;p&gt;git branch mirama #crea mirama&#xA;git checkout mirama  #switch to mirama&lt;br&gt;&#xA;git push -u origin mirama&lt;br&gt;&#xA;git merge mirama #desde master&lt;br&gt;&#xA;git push origin &amp;ndash;delete mirama #borra rama en gitlab&lt;br&gt;&#xA;git push -d &amp;lt;remote_name&amp;gt; &lt;!-- raw HTML omitted --&gt;   # Delete remote&lt;br&gt;&#xA;git branch -d &lt;!-- raw HTML omitted --&gt;               # Delete local&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
