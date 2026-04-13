@@ -5,3 +5,5 @@ title: radios
 categories: personal
 ---
 {{< radios >}}
+
+![image](/hugopapers/images/aboutfoto.png)

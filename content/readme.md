@@ -5,4 +5,3 @@ title = 'Readme'
 +++
 # Readme
 Este es el nuevo proyecto papers  
-![image](images/aboutfoto.png)
