@@ -12,7 +12,7 @@
     <link rel="stylesheet" href='http://localhost:1313/hugopapers/css/syntax.css' />
     <title>c&#43;&#43; - Hugo papers</title>
     
-    <link rel="icon" type="image/x-icon" href='http://localhost:1313/hugopapers/images/favicon.png'>
+    <link rel="icon" type="image/x-icon" href='images/favicon.png'>
     
     <meta name="theme-color" content="#1e2327">
 
@@ -26,6 +26,14 @@
   content="tutorial
 build CMakeLists.txt mkdir build cd build cmake .. cmake --build . archivo.pro qmake make # En Linux/macOS nmake # En Windows con Visual Studio mingw32-make # En Windows con MinGW cppreference
 int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero1 = 10; int numero2 {20} } libraries include include include include include include include std::cout &laquo; &ldquo;hello world&rdquo; &laquo; std::endl;
+booleans true (1)
+false (0)
+bool red_light {true};
+switch solo para integer y enum?
+switch(variable) {
+case algo : { }
+break; case algo :{ }
+break; default : { } break; }
 "
 />
 <meta
@@ -46,6 +54,14 @@ int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero
   content="tutorial
 build CMakeLists.txt mkdir build cd build cmake .. cmake --build . archivo.pro qmake make # En Linux/macOS nmake # En Windows con Visual Studio mingw32-make # En Windows con MinGW cppreference
 int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero1 = 10; int numero2 {20} } libraries include include include include include include include std::cout &laquo; &ldquo;hello world&rdquo; &laquo; std::endl;
+booleans true (1)
+false (0)
+bool red_light {true};
+switch solo para integer y enum?
+switch(variable) {
+case algo : { }
+break; case algo :{ }
+break; default : { } break; }
 "
 />
 <meta name="twitter:site" content="http://localhost:1313/hugopapers/" />
@@ -69,6 +85,14 @@ int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero
   content="tutorial
 build CMakeLists.txt mkdir build cd build cmake .. cmake --build . archivo.pro qmake make # En Linux/macOS nmake # En Windows con Visual Studio mingw32-make # En Windows con MinGW cppreference
 int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero1 = 10; int numero2 {20} } libraries include include include include include include include std::cout &laquo; &ldquo;hello world&rdquo; &laquo; std::endl;
+booleans true (1)
+false (0)
+bool red_light {true};
+switch solo para integer y enum?
+switch(variable) {
+case algo : { }
+break; case algo :{ }
+break; default : { } break; }
 "
 />
 <meta property="og:url" content="http://localhost:1313/hugopapers/post/c&#43;&#43;/" />
@@ -244,13 +268,13 @@ int main(int argc, char* argv[]){ // comment /* multi line comment */ int numero
 </span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">numero2</span> <span class="p">{</span><span class="mi">20</span><span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><h2 id="libraries">libraries</h2>
-<p>include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --><br>
-include <!-- raw HTML omitted --></p>
+<p>include <iostream><br>
+include <ios><br>
+include <iomanip><br>
+include <cmath><br>
+include <cctype><br>
+include <cstring><br>
+include <string></p>
 <p>std::cout &laquo; &ldquo;hello world&rdquo; &laquo; std::endl;</p>
 <h2 id="booleans">booleans</h2>
 <p>true (1)<br>

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href='http://localhost:1313/hugopapers/css/syntax.css' />
     <title>grub - Hugo papers</title>
     
-    <link rel="icon" type="image/x-icon" href='http://localhost:1313/hugopapers/images/favicon.png'>
+    <link rel="icon" type="image/x-icon" href='images/favicon.png'>
     
     <meta name="theme-color" content="#1e2327">
 
@@ -29,8 +29,8 @@
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 Instalar sin CD menuentry &#34;Mint 10 Julia live CD&#34; { set root=(hd1,3) loopback loop /isos/linuxmint-10-gnome-cd-amd64.iso linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/isos/linuxmint-10-gnome-cd-amd64.iso initrd (loop)/casper/initrd.lz } menuentry &#34;Debian 12&#34; { insmod ext2 set isofile=&#34;/debian12.iso&#34; loopback loop (hd1,1)$isofile linux (loop)/live/vmlinuz-6.1.0-10-amd64 boot=live findiso=$isofile initrd (loop)/live/initrd.img-6.1.0-10-amd64 } en /etc/mtab borrar linea isodevice ( o sudo umount -l /isodevice) write iso to usb Comprobar que el usb no esta montado:
 sudo lsblk -l
-sudo umount /dev/sd
-sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
+sudo umount /dev/sd&lt;?&gt;&lt;?&gt;
+sudo dd bs=4M if=path/to/input.iso of=/dev/sd&lt;?&gt; conv=fdatasync status=progress
 "
 />
 <meta
@@ -54,8 +54,8 @@ sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 Instalar sin CD menuentry &#34;Mint 10 Julia live CD&#34; { set root=(hd1,3) loopback loop /isos/linuxmint-10-gnome-cd-amd64.iso linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/isos/linuxmint-10-gnome-cd-amd64.iso initrd (loop)/casper/initrd.lz } menuentry &#34;Debian 12&#34; { insmod ext2 set isofile=&#34;/debian12.iso&#34; loopback loop (hd1,1)$isofile linux (loop)/live/vmlinuz-6.1.0-10-amd64 boot=live findiso=$isofile initrd (loop)/live/initrd.img-6.1.0-10-amd64 } en /etc/mtab borrar linea isodevice ( o sudo umount -l /isodevice) write iso to usb Comprobar que el usb no esta montado:
 sudo lsblk -l
-sudo umount /dev/sd
-sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
+sudo umount /dev/sd&lt;?&gt;&lt;?&gt;
+sudo dd bs=4M if=path/to/input.iso of=/dev/sd&lt;?&gt; conv=fdatasync status=progress
 "
 />
 <meta name="twitter:site" content="http://localhost:1313/hugopapers/" />
@@ -82,8 +82,8 @@ sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 Instalar sin CD menuentry &#34;Mint 10 Julia live CD&#34; { set root=(hd1,3) loopback loop /isos/linuxmint-10-gnome-cd-amd64.iso linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=/isos/linuxmint-10-gnome-cd-amd64.iso initrd (loop)/casper/initrd.lz } menuentry &#34;Debian 12&#34; { insmod ext2 set isofile=&#34;/debian12.iso&#34; loopback loop (hd1,1)$isofile linux (loop)/live/vmlinuz-6.1.0-10-amd64 boot=live findiso=$isofile initrd (loop)/live/initrd.img-6.1.0-10-amd64 } en /etc/mtab borrar linea isodevice ( o sudo umount -l /isodevice) write iso to usb Comprobar que el usb no esta montado:
 sudo lsblk -l
-sudo umount /dev/sd
-sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
+sudo umount /dev/sd&lt;?&gt;&lt;?&gt;
+sudo dd bs=4M if=path/to/input.iso of=/dev/sd&lt;?&gt; conv=fdatasync status=progress
 "
 />
 <meta property="og:url" content="http://localhost:1313/hugopapers/post/grub/" />
@@ -260,8 +260,8 @@ sudo dd bs=4M if=path/to/input.iso of=/dev/sd conv=fdatasync status=progress
 </span></span></code></pre></div><h2 id="write-iso-to-usb">write iso to usb</h2>
 <p>Comprobar que el usb no esta montado:<br>
 sudo lsblk -l<br>
-sudo umount /dev/sd<!-- raw HTML omitted --><!-- raw HTML omitted --><br>
-sudo dd bs=4M if=path/to/input.iso of=/dev/sd<!-- raw HTML omitted --> conv=fdatasync status=progress</p>
+sudo umount /dev/sd<?><?><br>
+sudo dd bs=4M if=path/to/input.iso of=/dev/sd<?> conv=fdatasync status=progress</p>
 <p>Otros programas:<br>
 unetbootin<br>
 etcher<br>
@@ -270,7 +270,7 @@ imagewriter, desde manjaro</p>
 sudo cp debian12.iso /dev/sdg<br>
 sync</p>
 <p>dd if=debian.iso of=/dev/sdX (no probado)<br>
-sudo dd bs=4M if=full_iso_name.iso of=/dev/<!-- raw HTML omitted --> status=progress oflag=sync  #cachyos</p>
+sudo dd bs=4M if=full_iso_name.iso of=/dev/<usbdrive> status=progress oflag=sync  #cachyos</p>
 </article>
               </div>
             </div>

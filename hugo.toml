@@ -4,9 +4,23 @@ title = "Hugo papers"
 theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
+DefaultContentLanguage = "en"
+
+[[module.mounts]]
+  source = 'assets'
+  target = 'assets'
+[[module.mounts]]
+  source = 'static'
+  target = 'assets'
+[markup.goldmark.renderer]
+  unsafe = true
 
 [outputs]
   home = ["HTML", "JSON"]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
 
 [outputFormats.json]
   mediaType = "application/json"
@@ -19,6 +33,6 @@ pygmentsUseClasses = true
   author = "waltermas"
   description = "waltermas hugo papers"
   github = "waltermas-gitter"
-  avatar = "/images/avatar.jpg"
-  favicon = "/images/favicon.png"
-  headerIcon = "/images/favicon.png"
+  avatar = "images/avatar.jpg"
+  favicon = "images/favicon.png"
+  headerIcon = "images/favicon.png"

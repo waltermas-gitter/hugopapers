@@ -12,7 +12,7 @@
     <link rel="stylesheet" href='http://localhost:1313/hugopapers/css/syntax.css' />
     <title>docker - Hugo papers</title>
     
-    <link rel="icon" type="image/x-icon" href='http://localhost:1313/hugopapers/images/favicon.png'>
+    <link rel="icon" type="image/x-icon" href='images/favicon.png'>
     
     <meta name="theme-color" content="#1e2327">
 
@@ -280,16 +280,16 @@ docker run -t -i [imageid] /bin/bash<br>
 -i interactive<br>
 press CTRL+P followed by CTRL+Q para salir sin liquidar el container<br>
 docker run -ti &ndash;entrypoint /bin/sh rclone/rclone #cambiando el entrypoint</p>
-<p>parar el container: docker stop <!-- raw HTML omitted --><br>
+<p>parar el container: docker stop <container-id><br>
 parar el container desde dentro: exit<br>
-volver al container: sudo docker attach <!-- raw HTML omitted --><br>
-rm <!-- raw HTML omitted --><br>
+volver al container: sudo docker attach <container-id><br>
+rm <container-id><br>
 docker container prune  ,para borrar todos los containers detenidos<br>
-borrar una imagen: docker rmi <!-- raw HTML omitted --></p>
+borrar una imagen: docker rmi <image-id></p>
 <p>crear una imagen propia, (no parar el container):<br>
 docker commit 3d24b3de0bfc waltermas/ubuntu_apache</p>
 <p>docker build -t kine:v0 .<br>
-docker build -t <!-- raw HTML omitted --> -f <!-- raw HTML omitted --> .</p>
+docker build -t <tag-name> -f <file-name> .</p>
 <p>docker system df -v # espacio que ocupa en disco</p>
 <h3 id="dockerfile">Dockerfile</h3>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">FROM debian:12.8
