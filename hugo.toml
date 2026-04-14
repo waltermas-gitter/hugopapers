@@ -21,5 +21,5 @@ pygmentsUseClasses = true
   description = "waltermas hugo papers"
   github = "waltermas-gitter"
   avatar = "/hugopapers/images/avatar.jpg"
-  favicon = "/hugopapers/images/favicon.png"
+  favicon = "hugopapers/images/favicon.png"
   headerIcon = "/hugopapers/images/favicon.png"
