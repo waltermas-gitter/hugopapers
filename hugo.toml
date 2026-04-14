@@ -14,12 +14,11 @@ pygmentsUseClasses = true
   isPlainText = false
 
 [params]
-  baseURL = "{{ .Site.BaseURL }}"
   enableSearch = true
   userStatusEmoji = "😀"
   author = "waltermas"
   description = "waltermas hugo papers"
   github = "waltermas-gitter"
-  avatar = "/hugopapers/images/avatar.jpg"
-  favicon = "hugopapers/images/favicon.png"
-  headerIcon = "/hugopapers/images/favicon.png"
+  avatar = "/images/avatar.jpg"
+  favicon = "/images/favicon.png"
+  headerIcon = "/images/favicon.png"
