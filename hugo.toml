@@ -6,12 +6,6 @@ pygmentsCodeFences = true
 pygmentsUseClasses = true
 DefaultContentLanguage = "en"
 
-[[module.mounts]]
-  source = 'assets'
-  target = 'assets'
-[[module.mounts]]
-  source = 'static'
-  target = 'assets'
 [markup.goldmark.renderer]
   unsafe = true
 

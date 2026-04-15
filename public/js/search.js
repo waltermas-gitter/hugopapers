@@ -1,5 +1,6 @@
 (() => {
-  fetch('/index.json')
+  const indexUrl = window.searchIndex || '/index.json';
+  fetch(indexUrl)
   .then(response => response.json())
   .then(data => {
     const fuse = new Fuse(data, {
