@@ -1,19 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Linux on Hugo papers</title>
-    <link>http://localhost:1313/hugopapers/tags/linux/</link>
-    <description>Recent content in Linux on Hugo papers</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/hugopapers/tags/linux/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>bash</title>
-      <link>http://localhost:1313/hugopapers/post/bash/</link>
-      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/hugopapers/post/bash/</guid>
-      <description>&lt;p&gt;brave &amp;gt; /dev/null 2&amp;gt;&amp;amp;1&lt;br&gt;&#xA;UID , usuario , [ $UID -ne 0 ] , check for super user&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;OLDIFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$IFS&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;IFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s1&#34;&gt;$&amp;#39;\n&amp;#39;&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;-----&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nv&#34;&gt;IFS&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$OLDIFS&lt;/span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;.xinitrc , lanza el escritorio&lt;/p&gt;&#xA;&lt;h3 id=&#34;argumentos&#34;&gt;argumentos&lt;/h3&gt;&#xA;&lt;p&gt;$# numero de argumentos&lt;br&gt;&#xA;$@ todos los argumentos&lt;br&gt;&#xA;!$ ultimo argumento&lt;br&gt;&#xA;$0 nombre del script&lt;br&gt;&#xA;despues del 9: ${10}&lt;br&gt;&#xA;$? valor de retorno de error del ultimo script&lt;br&gt;&#xA;!:1 tab, expande el argumento 1 del comando anterior&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=0D6MOPyPq-c&amp;amp;list=PLqRCtm0kbeHCyy97BXcArtR0UAQKGmkDk&amp;amp;index=2&#34;&gt;getopts pelado nerd&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;tail -f xxxxx.log  # seguir el log&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Hugo papers</title><link>https://waltermas-gitter.github.io/hugopapers/tags/linux/</link><description>Recent content in Linux on Hugo papers</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://waltermas-gitter.github.io/hugopapers/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>bash</title><link>https://waltermas-gitter.github.io/hugopapers/post/bash/</link><pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate><guid>https://waltermas-gitter.github.io/hugopapers/post/bash/</guid><description>&lt;p&gt;brave &amp;gt; /dev/null 2&amp;gt;&amp;amp;1&lt;br&gt;
+UID , usuario , [ $UID -ne 0 ] , check for super user&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;OLDIFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$IFS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;IFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s1"&gt;$&amp;#39;\n&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;-----
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;IFS&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="nv"&gt;$OLDIFS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;.xinitrc , lanza el escritorio&lt;/p&gt;
+&lt;h3 id="argumentos"&gt;argumentos&lt;/h3&gt;
+&lt;p&gt;$# numero de argumentos&lt;br&gt;
+$@ todos los argumentos&lt;br&gt;
+!$ ultimo argumento&lt;br&gt;
+$0 nombre del script&lt;br&gt;
+despues del 9: ${10}&lt;br&gt;
+$? valor de retorno de error del ultimo script&lt;br&gt;
+!:1 tab, expande el argumento 1 del comando anterior&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://www.youtube.com/watch?v=0D6MOPyPq-c&amp;amp;list=PLqRCtm0kbeHCyy97BXcArtR0UAQKGmkDk&amp;amp;index=2"&gt;getopts pelado nerd&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;tail -f xxxxx.log # seguir el log&lt;/p&gt;</description></item></channel></rss>

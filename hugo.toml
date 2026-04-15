@@ -5,8 +5,6 @@ theme = "github-style"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 DefaultContentLanguage = "en"
-disableLanguages = ["en-us"]
-defaultContentLanguageInSubdir = false
 
 [markup.goldmark.renderer]
   unsafe = true
